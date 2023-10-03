@@ -1,69 +1,15 @@
-# base
+![screenshot](https://github.com/SerhiiKarazinUni/diploma-phones-frontend/blob/main/screenshot.png?raw=true)
 
-## Project setup
+# Prefix tree based searchable encryption (front-end)
 
-```
-# yarn
-yarn
+This is Vue 3 front-end implementation for [the backend](https://github.com/SerhiiKarazinUni/diploma-phones-backend).
 
-# npm
-npm install
+This project is deployed at `https://se-phones.lilikovych.name/`.
 
-# pnpm
-pnpm install
+## Setting up
 
-# pnpm
-bun install
-```
-
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# bun
-bun run dev
-```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# bun
-bun run build
-```
-
-### Lints and fixes files
-
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-
-# bun
-bun run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+* `git clone https://github.com/SerhiiKarazinUni/diploma-phones-frontend`
+* `npm install`
+* Adjust API endpoint in `src/plugins/index.js` (by default it uses `https://se-phones-demo.lilikovych.name/`)
+* `npm run dev`
+* Navigate to `http://localhost:3000/`
